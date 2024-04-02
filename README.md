@@ -60,26 +60,31 @@ Most watched youtube videos
 ![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/6b9b864f-215e-4c9f-8bcb-33cf4fef8987)
 
 Videos watched per hour
+
 Overall video watching peaked at 9AM and was the lowest at 8PM
 
 ![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/8b6046d0-bd45-413d-932e-047822779114)
 
 Videos watched per day
+
 Most videos were watched on Mondays
 
 ![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/105ccb91-0da7-46e8-a165-c5ebf863790d)
 
 Videos watched over days and hours
+
 Overall video watching was most frequent on Mondays at 9AM and 2PM.
 
 ![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/f91f8255-235e-469d-96a4-27ef6c1721db)
 
 Videos watched over hours and months
+
 The most videos were watched on December at 6AM over the years.
 
 ![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/9715b453-b29f-4a34-aa42-d6bf3cbb5c9b)
 
 Videos watched over days and months
+
 Most videos were watched on Mondays of January months.
 
 ![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/2aaf66a4-84a4-435f-8e2a-e27f6cf114f4)
@@ -94,6 +99,7 @@ Functions made for text preprocessing, which included: making all words lowercas
 ![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/5312ea5e-32e9-45dd-9dab-603bc7369cec)
 
 Word Cloud
+
 Most watched keywords contain:
 
 ![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/d7d38769-47b4-444d-854a-82e9fa8c6bd6)
