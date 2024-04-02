@@ -100,7 +100,7 @@ Functions made for text preprocessing, which included: making all words lowercas
 
 Word Cloud
 
-Most watched keywords contain:
+Keywords with most views:
 
 ![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/d7d38769-47b4-444d-854a-82e9fa8c6bd6)
 
