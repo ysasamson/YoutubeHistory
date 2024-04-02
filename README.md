@@ -1,10 +1,11 @@
 # Youtube Watch History Exploratory Analysis
 ## Objective
 Exploratory Data Analysis on my own Youtube History. In this project, I was able to determine:
-1. The most viewed channels
-2. Video title keywords that appeared the most in the watch history (using NLP)
-3. Most active hours spent watching videos throughout the day
-4. Video watching patterns based on month, day, and hour of videos watched
+1. Most viewed channels
+2. Most watched videos
+3. Video title keywords that appeared the most in the watch history (using NLP)
+4. Most active hours spent watching videos throughout the day
+5. Video watching patterns based on month, day, and hour of videos watched
 
 ## Technology
 Language: Python
@@ -50,8 +51,6 @@ Time column used to make different columns: 'year', 'month', 'hour', 'day', 'min
 ## Exploratory Data Analysis
 Data is from October 2021 to April 2024
 
-![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/b65392f6-6950-4a6d-ad12-1cdbaa79cfdd)
-
 Most viewed channels
 
 ![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/de2de52f-12a9-49d0-bd80-9f47305d1dac)
@@ -60,4 +59,48 @@ Most watched youtube videos
 
 ![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/6b9b864f-215e-4c9f-8bcb-33cf4fef8987)
 
+Videos watched per hour
+Overall video watching peaked at 9AM and was the lowest at 8PM
 
+![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/8b6046d0-bd45-413d-932e-047822779114)
+
+Videos watched per day
+Most videos were watched on Mondays
+
+![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/105ccb91-0da7-46e8-a165-c5ebf863790d)
+
+Videos watched over days and hours
+Overall video watching was most frequent on Mondays at 9AM and 2PM.
+
+![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/f91f8255-235e-469d-96a4-27ef6c1721db)
+
+Videos watched over hours and months
+The most videos were watched on December at 6AM over the years.
+
+![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/9715b453-b29f-4a34-aa42-d6bf3cbb5c9b)
+
+Videos watched over days and months
+Most videos were watched on Mondays of January months.
+
+![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/2aaf66a4-84a4-435f-8e2a-e27f6cf114f4)
+
+### Natural Language Processing
+Preprocessing of video titles for analysis
+
+Functions made for text preprocessing, which included: making all words lowercase, expanding contractions, removing punctuation marks, removal of emojis, tokenization, and lemmatization. Another function made to convert list made from previous function into string. 
+
+![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/23f77ad3-4e77-4215-a129-0e9ad4056a3c)
+  
+![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/5312ea5e-32e9-45dd-9dab-603bc7369cec)
+
+Word Cloud
+Most watched keywords contain:
+
+![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/d7d38769-47b4-444d-854a-82e9fa8c6bd6)
+
+
+Specific count of words:
+
+![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/672111b9-3323-4d40-87fe-f14f34d1f72f)
+
+![image](https://github.com/ysasamson/YoutubeHistory/assets/145044637/93c6fdc5-c429-4721-a534-3ba152753282)
